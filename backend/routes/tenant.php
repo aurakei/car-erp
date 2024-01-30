@@ -25,6 +25,6 @@ Route::middleware([
 ])->group(function () {
     Route::get('/', function () {
         dd(\App\Models\Users::all());
-        return 'This is your multi-tenant application. The id of the current tenant is ' . tenant('id');
+        return 'Welcome back to the multi-tenancy application. The id of the current tenant is ' . tenant('id');
     });
 });
