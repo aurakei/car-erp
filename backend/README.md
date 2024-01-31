@@ -3,6 +3,7 @@
 First, run the development server:
 
 ```bash
+install the composer  package with `composer install` command.
 composer install
 ```
 
